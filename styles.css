@@ -1,0 +1,157 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  h1 {
+    font-size: 3rem;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+  }
+
+  
+  .header {
+    background-color: #0E131F; /*#1E2233*/
+    color: white;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    background: linear-gradient(45deg, #00ff00, #ff00ff, #00ff00);
+    background-size: 400% 400%;
+    animation: neonGradient 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @keyframes neonGradient {
+    0% {
+      background-position: 0 50%;
+    }
+    100% {
+      background-position: 400% 50%;
+    }
+  }
+
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    padding: 20px;
+    background-color: #0E131F;
+  }
+  
+  .hero {
+    /* background-color: #1D1021; */
+    padding: 100px;
+    margin: 9%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: center;
+    color: white;
+    border: 2px solid #A41ECD;
+    border-radius: 1rem;
+    font-size: 1.5rem
+  }
+
+  .goals {
+    /* background-color: #1D1021; */
+    padding: 100px;
+    margin: 9%;
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    border: 2px solid #A41ECD;
+    border-radius: 1rem;
+    font-size: 1.5rem
+
+  }
+  
+  .cta-button {
+    background-color: #1D2ABB; /* Discord brand color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make it a block-level element */
+    transition: background-color 0.3s ease-in-out; /* Add a smooth transition */
+  }
+
+  .cta-button:hover {
+    background-color: #5a67a1; /* Darker shade on hover */
+  }
+  
+  .about {
+    margin-top: 30px;
+    color: white;
+
+  }
+  
+  .footer {
+    background-color: #0E131F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  .goals {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .goal1 {
+    margin-right: -8%;
+    color: gray;
+  }
+  
+  .goal2 {
+    margin-right: -8%;
+    color: gray;
+  }
+
+  .goal3 {
+    color: gray;
+  }
+
+  /* Add more styles as needed for a modern look */
+  
+  
